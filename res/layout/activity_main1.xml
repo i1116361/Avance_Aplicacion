@@ -1,0 +1,55 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginTop="100px"
+  android:background="#FF7F50">
+  
+  >
+
+    <TextView
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Morales Quiñones Maycol" />
+           
+      <TextView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="i1116361" />
+
+           
+   
+    
+  
+  <Button
+        android:id="@+id/btnBoletaNotas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/boleta_button" 
+        android:layout_marginTop="50px"/>
+  
+    <Button
+        android:id="@+id/btnAsistencia"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/asistencia_button" />
+    
+   <Button
+        android:id="@+id/btnHorariosCursos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/horarios_button" />
+   
+   <Button
+        android:id="@+id/btnRol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rol_button" />
+   
+
+   
+
+</LinearLayout>

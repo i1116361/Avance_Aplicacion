@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intranet</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario_label">Usuario</string>
+    <string name="contrasenia_label">Contraseña</string>
+    <string name="iniciar_button">Iniciar Sesión</string>
+    <string name="cancelar_button">Cancelar Sesión</string>
+    <string name="title_activity_main1">MainActivity</string>
+    <string name="boleta_button">Boleta de Notas</string>
+    <string name="asistencia_button">Asistencia</string>
+    <string name="horarios_button">Horarios y Cursos</string>
+    <string name="rol_button">Rol de Examenes</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main3">MainActivity</string>
+    <string name="Atras_button">Atras</string>
+
+</resources>

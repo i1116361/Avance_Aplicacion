@@ -1,0 +1,59 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:layout_marginTop="100px"
+  android:background="#ffff0000">
+  
+  >
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/usuario_label" />
+
+      <EditText
+          android:id="@+id/txtUsuario"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="0.54" />
+      
+  </LinearLayout>
+  
+   <LinearLayout   android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      >
+      
+      <TextView android:text="@string/contrasenia_label"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+          />
+
+      <EditText
+          android:id="@+id/txtContrasenia"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+      
+  </LinearLayout>
+  
+  <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_button" />
+  
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar_button" />
+   
+
+</LinearLayout>
